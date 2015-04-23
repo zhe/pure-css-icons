@@ -1,0 +1,48 @@
+/* Pen Icon
+
+  Size availablity:
+  [-] 16x16
+  [-] 32x32
+  [ ] 48x48
+  [ ] 64x64
+  [ ] 128x128
+
+ */
+.ci-pen
+  background border-color
+  width 4px
+  height 15px
+  transform rotate(45deg) !important
+  box-shadow -4px -2px 0 -1px border-color
+  &::before
+    background border-color
+    width 4px
+    height 3px
+    left 0
+    top -4px
+  &::after
+    border-top 5px solid border-color
+    border-left 2px solid transparent
+    border-right 2px solid transparent
+    border-bottom 0
+    width 4px
+    height 0
+    left 0px
+    top 16px
+.ci-pen-32
+  width 8px
+  height 28px
+  box-shadow -8px -1px 0 -2px border-color
+  &::before
+    width 8px
+    height 5px
+    left 0
+    top -7px
+  &::after
+    border-top 8px solid border-color
+    border-left 4px solid transparent
+    border-right 4px solid transparent
+    border-bottom 0
+    width 8px
+    left 0px
+    top 30px

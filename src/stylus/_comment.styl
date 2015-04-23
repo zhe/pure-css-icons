@@ -1,0 +1,46 @@
+/* Comment Icon
+
+  Size availablity:
+  [-] 16x16
+  [-] 32x32
+  [ ] 48x48
+  [ ] 64x64
+  [ ] 128x128
+
+ */
+
+.ci-comment
+  border-radius 3px
+  border 2px solid border-color
+  background-color bg-color
+  width 16px
+  height round(@width * .8)
+  &::before
+    border-top 3px solid border-color
+    border-left 3px solid transparent
+    border-right 3px solid transparent
+    border-bottom 0 solid transparent
+    top 11px
+    left 3px
+  &::after
+    border 1px solid border-color
+    border-radius 100%
+    top 3px
+    left 2px
+    box-shadow 3px 0 0 0 border-color, 6px 0 0 0 border-color
+.ci-comment-32
+  width 32px
+  height round(@width * .8)
+  &::before
+    border-top 6px solid border-color
+    border-left 6px solid transparent
+    border-right 6px solid transparent
+    border-bottom 0 solid transparent
+    top 24px
+    left 8px
+  &::after
+    border 2px solid border-color
+    border-radius 100%
+    top 9px
+    left 4px
+    box-shadow 8px 0 0 0 border-color, 16px 0 0 0 border-color

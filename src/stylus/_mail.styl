@@ -1,0 +1,28 @@
+/* Mail Icon
+
+  Size availablity:
+  [-] 16x16
+  [ ] 32x32
+  [ ] 48x48
+  [ ] 64x64
+  [ ] 128x128
+
+ */
+
+.ci-mail
+  border 2px solid border-color
+  border-radius 50%
+  width 14px
+  height @width
+  &::before
+    border-left 2px solid border-color
+    width 0
+    height 9px
+    left 6px
+    top 0px
+  &::after
+    border-left 2px solid border-color
+    height 7px
+    left 9px
+    top 4px
+    transform rotate(90deg)

@@ -1,0 +1,31 @@
+body
+  background-color #E1E4EF
+
+ul
+  list-style none
+  padding 0
+  zoom 1
+  margin-bottom 2em
+  &::after
+  &::before
+    content ''
+    display table
+  &::after
+    clear both
+  li
+    float left
+    position: relative;
+    padding 10px
+    text-align center
+.icons-list
+  li
+    width 24px
+    height @width
+.icons-list-32
+  li
+    width 40px
+    height @width
+.icons-list-48
+  li
+    width 60px
+    height @width

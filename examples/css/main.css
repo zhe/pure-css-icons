@@ -1,0 +1,35 @@
+body {
+  background-color: #e1e4ef;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  zoom: 1;
+  margin-bottom: 2em;
+}
+ul::after,
+ul::before {
+  content: '';
+  display: table;
+}
+ul::after {
+  clear: both;
+}
+ul li {
+  float: left;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+.icons-list li {
+  width: 24px;
+  height: 24px;
+}
+.icons-list-32 li {
+  width: 40px;
+  height: 40px;
+}
+.icons-list-48 li {
+  width: 60px;
+  height: 60px;
+}
