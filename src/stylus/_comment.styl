@@ -3,7 +3,7 @@
   Size availablity:
   [-] 16x16
   [-] 32x32
-  [ ] 48x48
+  [-] 48x48
   [ ] 64x64
   [ ] 128x128
 
@@ -28,6 +28,7 @@
     top 3px
     left 2px
     box-shadow 3px 0 0 0 border-color, 6px 0 0 0 border-color
+
 .ci-comment-32
   width 32px
   height round(@width * .8)
@@ -44,3 +45,21 @@
     top 9px
     left 4px
     box-shadow 8px 0 0 0 border-color, 16px 0 0 0 border-color
+
+.ci-comment-48
+  width 48px
+  border 3px solid border-color
+  height round(@width * .8)
+  &::before
+    border-top 9px solid border-color
+    border-left 9px solid transparent
+    border-right 9px solid transparent
+    border-bottom 0 solid transparent
+    top 35px
+    left 12px
+  &::after
+    border 3px solid border-color
+    border-radius 100%
+    top 12px
+    left 6px
+    box-shadow 12px 0 0 0 border-color, 24px 0 0 0 border-color

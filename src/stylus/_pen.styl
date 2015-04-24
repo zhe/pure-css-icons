@@ -3,16 +3,17 @@
   Size availablity:
   [-] 16x16
   [-] 32x32
-  [ ] 48x48
+  [-] 48x48
   [ ] 64x64
   [ ] 128x128
 
  */
+
 .ci-pen
   background border-color
   width 4px
   height 15px
-  transform rotate(45deg) !important
+  transform translateY(3px) rotate(45deg) !important
   box-shadow -4px -2px 0 -1px border-color
   &::before
     background border-color
@@ -29,6 +30,7 @@
     height 0
     left 0px
     top 16px
+
 .ci-pen-32
   width 8px
   height 28px
@@ -46,3 +48,21 @@
     width 8px
     left 0px
     top 30px
+
+.ci-pen-48
+  width 10px
+  height 38px
+  box-shadow -10px -2px 0 -3px border-color
+  &::before
+    width 10px
+    height 5px
+    left 0
+    top -7px
+  &::after
+    border-top 10px solid border-color
+    border-left 5px solid transparent
+    border-right 5px solid transparent
+    border-bottom 0
+    width 8px
+    left 0px
+    top 40px

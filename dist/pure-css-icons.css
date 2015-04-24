@@ -65,6 +65,26 @@
   left: 4px;
   box-shadow: 8px 0 0 0 #fff, 16px 0 0 0 #fff;
 }
+.ci-comment-48 {
+  width: 48px;
+  border: 3px solid #fff;
+  height: 38px;
+}
+.ci-comment-48::before {
+  border-top: 9px solid #fff;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 0 solid transparent;
+  top: 35px;
+  left: 12px;
+}
+.ci-comment-48::after {
+  border: 3px solid #fff;
+  border-radius: 100%;
+  top: 12px;
+  left: 6px;
+  box-shadow: 12px 0 0 0 #fff, 24px 0 0 0 #fff;
+}
 .ci-clock {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -122,9 +142,9 @@
   background: #fff;
   width: 4px;
   height: 15px;
-  -webkit-transform: rotate(45deg) !important;
-      -ms-transform: rotate(45deg) !important;
-          transform: rotate(45deg) !important;
+  -webkit-transform: translateY(3px) rotate(45deg) !important;
+      -ms-transform: translateY(3px) rotate(45deg) !important;
+          transform: translateY(3px) rotate(45deg) !important;
   box-shadow: -4px -2px 0 -1px #fff;
 }
 .ci-pen::before {
@@ -163,4 +183,24 @@
   width: 8px;
   left: 0px;
   top: 30px;
+}
+.ci-pen-48 {
+  width: 10px;
+  height: 38px;
+  box-shadow: -10px -2px 0 -3px #fff;
+}
+.ci-pen-48::before {
+  width: 10px;
+  height: 5px;
+  left: 0;
+  top: -7px;
+}
+.ci-pen-48::after {
+  border-top: 10px solid #fff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 0;
+  width: 8px;
+  left: 0px;
+  top: 40px;
 }
