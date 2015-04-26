@@ -204,3 +204,79 @@
   left: 0px;
   top: 40px;
 }
+.ci-bars {
+  background: #fff;
+  width: 16px;
+  height: 2px;
+  top: 7px;
+  left: 0;
+}
+.ci-bars::before,
+.ci-bars::after {
+  background: #fff;
+  width: 16px;
+  height: 2px;
+  left: 0;
+}
+.ci-bars::before {
+  top: -6px;
+}
+.ci-bars::after {
+  top: 6px;
+}
+.ci-ban {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+.ci-ban::before {
+  width: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  top: 5px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.ci-mail {
+  border: 2px solid #fff;
+  border-radius: 2px;
+  height: 16px;
+  width: 19.2px;
+}
+.ci-mail::before {
+  border-bottom: 0;
+  border-left: 0;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-radius: 2px;
+}
+.ci-mail::before {
+  width: 13px;
+  height: 13px;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
+  top: -6px;
+  left: 1px;
+}
+.ci-heart {
+  width: 16px;
+  height: 16px;
+}
+.ci-heart::before,
+.ci-heart::after {
+  border-radius: 16px 16px 0 0;
+  width: 8px;
+  height: 14px;
+  background: #fff;
+  -webkit-transform: rotate(45deg) translate(3px, -4px);
+      -ms-transform: rotate(45deg) translate(3px, -4px);
+          transform: rotate(45deg) translate(3px, -4px);
+}
+.ci-heart::after {
+  -webkit-transform: rotate(-45deg) translate(1px, 0px);
+      -ms-transform: rotate(-45deg) translate(1px, 0px);
+          transform: rotate(-45deg) translate(1px, 0px);
+}

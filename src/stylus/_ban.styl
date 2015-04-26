@@ -1,0 +1,21 @@
+/* Ban Icon
+
+  Size availablity:
+  [-] 16x16
+  [ ] 32x32
+  [ ] 48x48
+  [ ] 64x64
+  [ ] 128x128
+
+ */
+.ci-ban
+  border 2px solid stroke-color
+  border-radius 50%
+  width 16px
+  height @width
+  &::before
+    width 100%
+    border-top 1px solid stroke-color
+    border-bottom @border-top
+    top 5px
+    transform rotate(-45deg)
